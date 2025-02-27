@@ -3,33 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feature 2</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>4G Connectivity - 4G Drone Documentation</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
 </head>
 <body>
     <header>
-        <h1>Feature 2</h1>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="feature1.html">Feature 1</a></li>
-                <li><a href="feature2.html">Feature 2</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <a href="../index.html" class="back-link">← Back to Main</a>
         </nav>
     </header>
-    <main>
-        <section>
+    <main class="feature-page">
+        <h1>4G Connectivity</h1>
+        
+        <section class="feature-content">
             <h2>Overview</h2>
-            <p>This section provides an overview of Feature 2.</p>
-        </section>
-        <section>
-            <h2>Details</h2>
-            <p>This section provides detailed information about Feature 2.</p>
+            <p>Detailed explanation of the 4G connectivity system used in the drone.</p>
+
+            <h2>Technical Specifications</h2>
+            <ul>
+                <li>Network Protocol: LTE-Advanced</li>
+                <li>Frequency Bands: Band 1/3/5/7/8/20</li>
+                <li>Maximum Bandwidth: 150Mbps downlink</li>
+            </ul>
+
+            <h2>Implementation Guide</h2>
+            <pre><code>// Sample configuration code
+const networkConfig = {
+    band: 'B3',
+    mode: 'LTE',
+    power: '23dBm'
+};
+</code></pre>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 Drone 4G Documentation</p>
+        <p>&copy; 2025 4G Drone Project. All rights reserved.</p>
     </footer>
+    <script src="../js/main.js"></script>
 </body>
 </html>

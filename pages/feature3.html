@@ -3,41 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feature 3 - Drone 4G Documentation</title>
-    <link rel="stylesheet" href="../styles/main.css">
+    <title>4G Connectivity - 4G Drone Documentation</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="feature1.html">Feature 1</a></li>
-                <li><a href="feature2.html">Feature 2</a></li>
-                <li><a href="feature3.html" class="active">Feature 3</a></li>
-            </ul>
+            <a href="../index.html" class="back-link">← Back to Main</a>
         </nav>
     </header>
-
-    <main>
-        <h1>Feature 3</h1>
-        <section>
+    <main class="feature-page">
+        <h1>4G Connectivity</h1>
+        
+        <section class="feature-content">
             <h2>Overview</h2>
-            <p>Description of feature 3 goes here.</p>
-        </section>
+            <p>Detailed explanation of the 4G connectivity system used in the drone.</p>
 
-        <section>
-            <h2>Details</h2>
-            <p>Detailed explanation of feature 3 functionality.</p>
-        </section>
+            <h2>Technical Specifications</h2>
+            <ul>
+                <li>Network Protocol: LTE-Advanced</li>
+                <li>Frequency Bands: Band 1/3/5/7/8/20</li>
+                <li>Maximum Bandwidth: 150Mbps downlink</li>
+            </ul>
 
-        <section>
-            <h2>Usage</h2>
-            <p>How to use feature 3 instructions.</p>
+            <h2>Implementation Guide</h2>
+            <pre><code>// Sample configuration code
+const networkConfig = {
+    band: 'B3',
+    mode: 'LTE',
+    power: '23dBm'
+};
+</code></pre>
         </section>
     </main>
-
     <footer>
-        <p>&copy; 2024 Drone 4G Documentation. All rights reserved.</p>
+        <p>&copy; 2025 4G Drone Project. All rights reserved.</p>
     </footer>
+    <script src="../js/main.js"></script>
 </body>
 </html>
